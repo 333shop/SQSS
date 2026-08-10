@@ -1,16 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "name": "333 Shop",
+  "projectType": "saas",
+  "projectName": "333 Shop",
+  "projectDescription": "A freelance web design and development service where clients can browse offerings, view pricing, and submit project tickets directly from the site.",
   "theme": "almond",
-  "colors": {
-    "primary": "#1470b4",
-    "light": "#8cbcdc"
-  },
-  "logo": {
-    "light": "https://media.brand.dev/d77307ad-9e33-4db6-a99e-545160b93eee.png",
-    "dark": "https://media.brand.dev/d77307ad-9e33-4db6-a99e-545160b93eee.png"
-  },
-  "favicon": "https://media.brand.dev/2e927de2-11a7-4d81-80b7-806cb1a44d33.png",
+  "primaryColor": "#1470b4",
+  "lightColor": "#8cbcdc",
+  "darkColor": null,
   "navigation": {
     "tabs": [
       {
@@ -49,5 +44,19 @@
         ]
       }
     ]
-  }
+  },
+  "keyFeatures": [
+    "Custom HTML/CSS/JS websites",
+    "Responsive and mobile-friendly design",
+    "Backend logic with Java",
+    "One-click ticket submission form",
+    "Discord-based communication and notifications",
+    "Ticket tracking with unique ticket IDs",
+    "Custom quotes for larger projects",
+    "Starting price of $5 for simple pages and fixes"
+  ],
+  "publicApiSurface": [
+    "POST /api/ticket — Submit a new service ticket",
+    "GET /api/tickets — Retrieve submitted tickets (admin)"
+  ]
 }
